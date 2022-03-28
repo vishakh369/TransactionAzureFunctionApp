@@ -8,10 +8,10 @@ namespace FunctionApp_Test1
 {
     internal class TransactionModel
     {
-        public int TransactionId { get; set; }
+        public int Id { get; set; }
         public decimal Amount { get; set; }
         public string Direction { get; set; }
-        public int AccountId { get; set; }
+        public int Account { get; set; }
 
     }
 
